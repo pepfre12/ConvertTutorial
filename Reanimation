@@ -1,0 +1,68 @@
+local reanimation = loadstring(game:HttpGet("https://gist.githubusercontent.com/pepfre12/9382733b5001bd833135816b801cc8b4/raw/24a7a49075724c6b5c462099b16315fb70682171/aaaa"))()
+local FDless = reanimation.start({
+	revokeownerships=true,
+	simulationradius={
+		enabled=true,
+		value=9e9
+	},
+	accessorylimbs={
+
+		{meshid="11263221350",textureid="11263219250",C0=CFrame.Angles(1.5707963267948966,0,1.5707963267948966),Name="Left Arm"},
+		{meshid="11159370334",textureid="11159284657",C0=CFrame.Angles(-1.5707963267948966,0,1.5707963267948966),Name="Right Arm"},
+
+		{meshid="14255522247",textureid="",C0=CFrame.Angles(1.5707963267948966,0,1.5707963267948966),Name="Left Arm"},
+		{meshid="14255522247",textureid="",C0=CFrame.Angles(-1.5707963267948966,0,1.5707963267948966),Name="Right Arm"},
+
+		{meshid="12344207333",textureid="",C0=CFrame.Angles(2,0,0),Name="Left Arm"},
+		{meshid="12344206657",textureid="",C0=CFrame.Angles(2,0,0),Name="Right Arm"},
+		
+		{meshid="13831073174",textureid="",C0=CFrame.new(0.017,0,-0.23),CFrame.Angles(-1.4835298641951802,-0.15707963267948966,2.199114857512855),Name="Left Arm"},
+		{meshid="13839903766",textureid="",C0=CFrame.new(0,-0.62,-0.01),CFrame.Angles(1.6580627893946132,0.15707963267948966,-2.199114857512855),Name="Right Arm"},
+
+		{meshid="11159370334",textureid="11159285454",C0=CFrame.Angles(1.5707963267948966,0,1.5707963267948966),Name="Left Leg"},
+		{meshid="12652772399",textureid="12652775021",C0=CFrame.new(0,-0.125,0),Name="Right Leg"},
+
+		{meshid="14768684979",textureid="",C0=CFrame.Angles(0,0,1.5707963267948966),Name="Left Leg"},
+		{meshid="14768684979",textureid="",C0=CFrame.Angles(0,0,1.5707963267948966),Name="Right Leg"},
+
+		{meshid="14768666349",textureid="",C0=CFrame.identity,Name="Torso"},
+		{meshid="14241018198",textureid="",C0=CFrame.identity,Name="Torso"},
+		{meshid="13421774668",textureid="",C0=CFrame.identity,Name="Torso"},
+
+		{meshid="4324138105",textureid="4324138210",C0=CFrame.Angles(-1.6144295580947547,1.5707963267948966,0)*CFrame.new(-0.125,0.3,0),Name="Left Arm"},
+		{meshid="3030546036",textureid="3443321249",C0=CFrame.Angles(-1.6144295580947547,-1.5707963267948966,0)*CFrame.new(0.125,0.3,0),Name="Right Arm"},
+		{meshid="3030546036",textureid="3360978739",C0=CFrame.Angles(-1.6144295580947547,-1.5707963267948966,3.14)*CFrame.new(0,0.3,0),Name="Left Leg"},
+		{meshid="3030546036",textureid="3409604993",C0=CFrame.Angles(-1.6144295580947547,1.5707963267948966,3.14)*CFrame.new(0,0.3,0),Name="Right Leg"},
+		
+		{meshid="17374767929",textureid="17374768001",C0=CFrame.Angles(1.57,0,1.57),Name="Right Leg"},
+		{meshid="17374767929",textureid="17374768001",C0=CFrame.Angles(1.57,0,1.57),Name="Left Leg"},
+		{meshid="14768684979",textureid="14768683674",C0=CFrame.Angles(1.57,0,1.57),Name="Right Leg"},
+		{meshid="14768684979",textureid="14768683674",C0=CFrame.Angles(1.57,0,1.57),Name="Left Leg"},
+		{meshid="4819720316",textureid="4819722776",C0=CFrame.Angles(0,0,0.2617993877991494),Name="Torso"},
+		{meshid="10775011914",textureid="10774853167",C0=CFrame.new(1.1,2.8,0)*CFrame.Angles(1.54,4.05,1.54),Name="Right Arm"}
+	},
+	camerasensitivity=1.25,
+	allowshiftlock=true,
+	ctrltp=false,
+	placeholders=true,
+	clickfling=false,
+	allowfling=true,
+	highlightflingtargets=true,
+	discharscripts=true,
+	flingchangestate=true,
+	slowrespawn=false,
+	respawntp=3,
+	stoptime=1.5,
+	breakjointsmethod=1,
+	setcharacter=false,
+	charactertransparency=1,
+	charactersize=1,
+	hipheight=0,
+	defaultanimations=false,
+	r15=false,
+	debug = {
+		shownownerships=false,
+		shownregions=false,
+		addaccessories={}
+	}
+})
