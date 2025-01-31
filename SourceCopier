@@ -1,2 +1,2 @@
 C = game:GetObjects("rbxassetid://Asset")[1].Location
-setclipboard(C.source)
+setclipboard(C.Source)
